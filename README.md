@@ -1,6 +1,12 @@
 # Projeto NCIS - Hedear Stream
 
-## Projeto feito como se fosse uma page de stream , a partir de uma semana de aulas com o DEVEMDOBRO
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
+
+
+## Sobre o Projeto
+Projeto feito como se fosse uma page de stream , a partir de uma semana de aulas com o DEVEMDOBRO.
 
 ### Layout do projeto 
 
