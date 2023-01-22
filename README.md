@@ -6,7 +6,8 @@
 
 
 ## Sobre o Projeto
-Projeto feito como se fosse uma page de stream , a partir de uma semana de aulas com o DEVEMDOBRO.
+ * Projeto feito como se fosse uma page de stream , a partir de uma semana de aulas com o DEVEMDOBRO.
+ * Ele pode ser visto nesse link : https://danny-s07.github.io/projetoncis/
 
 ### Layout do projeto 
 
