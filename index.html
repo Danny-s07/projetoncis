@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inicio colocar um incon do lado do titulo da pagina no navegador -->
+    <link rel="shortcut icon" href="./src/imagens/lupa.ico" type="image/x-icon">
+    <!-- final colocar um incon do lado do titulo da pagina no navegador -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>NCIS- Clone</title>
+</head>
+<body>
+     <div class="fundo-video">
+         <!-- autoplay-rodar o video assim que carrega a pagina, loop-rodar direto, muted-sem som -->
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/ncis.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <!-- <a>
+            <img class="logo" src="./imagens/lupa.png" alt="logo chapeu mario">
+        </a> -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img  class="imagem-titulo" src="./src/imagens/logoncis.png" alt="imagem do titulo da serie">
+            
+            <p class="descricao">
+                O Agente Leroy Jethro Gibbs lidera uma equipe de agentes especiais de elite que tem como missão investigar qualquer crime ligado à Marinha e aos Fuzileiros Navais.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="ncis" src="./src/imagens/capancis.jpg" alt="imagem da capa da serie ncis com os personagens">
+        <!-- inicio criar um modal para o botao de exibir o trailher qd clicar no bt -->
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/IrVUacVsyGs"  frameborder="1"title="trailer official" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        <!-- final criar um modal para o botao de exibir o trailher qd clicar no bt -->
+    </main>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
